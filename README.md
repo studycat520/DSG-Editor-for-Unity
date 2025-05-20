@@ -1,5 +1,6 @@
 # DSG-Editor-for-Unity
 Lightweight Unity tool that can create Dynamic Scene Graph (DSG) for your 2D/3D scenes in Unity. 
+
 **📖 Citation**
 
 If you found this library useful in your research and use this code in a publication or project, please cite:
@@ -34,7 +35,8 @@ If you found this library useful in your research and use this code in a publica
 ---
 
 ### 2. Interface overview
-![image.png](attachment:ce7ec8f9-c148-4317-884b-5806d4606051:image.png)
+<img width="592" alt="window preview" src="https://github.com/user-attachments/assets/7c1513f9-1c2e-4774-88da-a3bc2384eb2b" />
+
 
 ---
 
