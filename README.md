@@ -1,15 +1,7 @@
 # DSG-Editor-for-Unity
 Lightweight Unity tool that can create Dynamic Scene Graph (DSG) for your 2D/3D scenes in Unity. 
 
-**📖 Citation**
-
-If you found this library useful in your research and use this code in a publication or project, please cite:
-
-> "Li et al., X's Day: Personality-Driven Virtual Human Behavior Generation, TVCG 2025" 
-
----
-
-## Features
+## 💡 Features
 
 - **Lightweight DSG generation**  
   One-click build of a dynamic scene graph (DSG) from your Unity scene.
@@ -22,7 +14,7 @@ If you found this library useful in your research and use this code in a publica
 
 ---
 
-## Usage
+## 💻 Usage
 
 > **Before you begin**  
 > In your Unity scene, create an empty GameObject and attach the `DSGManager` script. This object will hold all DSG data for the scene.
@@ -125,9 +117,24 @@ You can define which scene elements map to each type:
 
 ### 6. Source file locations
 
+- **DSG definition**: `DSG.cs`  
 - **Editor window**: `DSGEditor.cs`  
 - **Scene management**: `DSGManager.cs` (includes `SceneGraph`, `Node`, `Edge` classes)  
 
-## License
+## 📃 License
 
 Use [Apache 2.0](./LICENSE) , see LICENSE file
+
+## 📖 Citation
+
+If you found this library useful in your research and use this code in a publication or project, please cite:
+
+```bibtex
+@article{li2025x,
+  title= {X's Day: Personality-Driven Virtual Human Behavior Generation},
+  author = {Li, Haoyang and Wang, Zan and Liang, Wei and Wang, Yizhuo},
+  journal = {IEEE Transactions on Visualization and Computer Graphics (TVCG)},
+  year = {2025},
+  publisher = {IEEE}
+}
+```
